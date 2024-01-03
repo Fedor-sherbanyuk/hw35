@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const Contacts = ({ onAddContactClick }) => {
+const Contacts = ({  }) => {
     const [contacts, setContacts] = useState([]);
 
     useEffect(() => {
@@ -39,7 +39,6 @@ const Contacts = ({ onAddContactClick }) => {
                 ))}
                 </tbody>
             </table>
-            <button onClick={onAddContactClick}>Додати контакт</button>
         </div>
     );
 };
